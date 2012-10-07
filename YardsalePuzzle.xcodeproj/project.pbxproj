@@ -16,15 +16,7 @@
 		CE1D534416223FCE009BAD27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D534316223FCE009BAD27 /* ViewController.m */; };
 		CE1D534716223FCE009BAD27 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1D534516223FCE009BAD27 /* ViewController_iPhone.xib */; };
 		CE1D534A16223FCE009BAD27 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1D534816223FCE009BAD27 /* ViewController_iPad.xib */; };
-		CE1D535A16224002009BAD27 /* yardsale-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535116224002009BAD27 /* yardsale-01.png */; };
-		CE1D535B16224002009BAD27 /* yardsale-02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535216224002009BAD27 /* yardsale-02.png */; };
-		CE1D535C16224002009BAD27 /* yardsale-03.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535316224002009BAD27 /* yardsale-03.png */; };
-		CE1D535D16224002009BAD27 /* yardsale-04.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535416224002009BAD27 /* yardsale-04.png */; };
-		CE1D535E16224002009BAD27 /* yardsale-05.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535516224002009BAD27 /* yardsale-05.png */; };
-		CE1D535F16224002009BAD27 /* yardsale-06.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535616224002009BAD27 /* yardsale-06.png */; };
-		CE1D536016224002009BAD27 /* yardsale-07.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535716224002009BAD27 /* yardsale-07.png */; };
-		CE1D536116224002009BAD27 /* yardsale-08.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535816224002009BAD27 /* yardsale-08.png */; };
-		CE1D536216224002009BAD27 /* yardsale-09.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535916224002009BAD27 /* yardsale-09.png */; };
+		CE1D536416224DBD009BAD27 /* yardsale.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE1D536316224DBD009BAD27 /* yardsale.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,15 +34,7 @@
 		CE1D534316223FCE009BAD27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE1D534616223FCE009BAD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		CE1D534916223FCE009BAD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		CE1D535116224002009BAD27 /* yardsale-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-01.png"; sourceTree = "<group>"; };
-		CE1D535216224002009BAD27 /* yardsale-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-02.png"; sourceTree = "<group>"; };
-		CE1D535316224002009BAD27 /* yardsale-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-03.png"; sourceTree = "<group>"; };
-		CE1D535416224002009BAD27 /* yardsale-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-04.png"; sourceTree = "<group>"; };
-		CE1D535516224002009BAD27 /* yardsale-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-05.png"; sourceTree = "<group>"; };
-		CE1D535616224002009BAD27 /* yardsale-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-06.png"; sourceTree = "<group>"; };
-		CE1D535716224002009BAD27 /* yardsale-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-07.png"; sourceTree = "<group>"; };
-		CE1D535816224002009BAD27 /* yardsale-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-08.png"; sourceTree = "<group>"; };
-		CE1D535916224002009BAD27 /* yardsale-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-09.png"; sourceTree = "<group>"; };
+		CE1D536316224DBD009BAD27 /* yardsale.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yardsale.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,15 +107,7 @@
 		CE1D535016224002009BAD27 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D535116224002009BAD27 /* yardsale-01.png */,
-				CE1D535216224002009BAD27 /* yardsale-02.png */,
-				CE1D535316224002009BAD27 /* yardsale-03.png */,
-				CE1D535416224002009BAD27 /* yardsale-04.png */,
-				CE1D535516224002009BAD27 /* yardsale-05.png */,
-				CE1D535616224002009BAD27 /* yardsale-06.png */,
-				CE1D535716224002009BAD27 /* yardsale-07.png */,
-				CE1D535816224002009BAD27 /* yardsale-08.png */,
-				CE1D535916224002009BAD27 /* yardsale-09.png */,
+				CE1D536316224DBD009BAD27 /* yardsale.jpeg */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -189,15 +165,7 @@
 				CE1D533B16223FCE009BAD27 /* InfoPlist.strings in Resources */,
 				CE1D534716223FCE009BAD27 /* ViewController_iPhone.xib in Resources */,
 				CE1D534A16223FCE009BAD27 /* ViewController_iPad.xib in Resources */,
-				CE1D535A16224002009BAD27 /* yardsale-01.png in Resources */,
-				CE1D535B16224002009BAD27 /* yardsale-02.png in Resources */,
-				CE1D535C16224002009BAD27 /* yardsale-03.png in Resources */,
-				CE1D535D16224002009BAD27 /* yardsale-04.png in Resources */,
-				CE1D535E16224002009BAD27 /* yardsale-05.png in Resources */,
-				CE1D535F16224002009BAD27 /* yardsale-06.png in Resources */,
-				CE1D536016224002009BAD27 /* yardsale-07.png in Resources */,
-				CE1D536116224002009BAD27 /* yardsale-08.png in Resources */,
-				CE1D536216224002009BAD27 /* yardsale-09.png in Resources */,
+				CE1D536416224DBD009BAD27 /* yardsale.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

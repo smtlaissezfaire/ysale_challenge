@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 
-#define TILE_COUNT 8
+#define TILES_PER_ROW 4
+#define TILE_COUNT 15
 
 @interface ViewController () {
     NSMutableArray *buttons_;
@@ -30,23 +31,27 @@
     CGFloat xOffset = 0;
     CGFloat frameWidth = self.view.frame.size.width;
     CGFloat frameHeight = self.view.frame.size.height;
-    CGFloat tileWidth = frameWidth / 3.0f;
-    CGFloat tileHeight = frameHeight / 3.0f;
+    CGFloat tileWidth = frameWidth / TILES_PER_ROW;
+    CGFloat tileHeight = frameHeight / TILES_PER_ROW;
     CGFloat yOffset = -tileHeight;
 
+    UIImage *largeImage = [UIImage imageNamed: @"yardsale.jpeg"];
+
     for (int i = 0; i < TILE_COUNT; i++) {
-        if ((i % 3) == 0) {
+        if ((i % TILES_PER_ROW) == 0) {
             xOffset = 0;
             yOffset += tileHeight;
         } else {
             xOffset += tileWidth;
         }
 
-        NSString *tileImageName = [NSString stringWithFormat: @"yardsale-0%i.png", i + 1];
-        UIImage *image = [UIImage imageNamed: tileImageName];
-
         UIButton *button = [UIButton buttonWithType: UIButtonTypeRoundedRect];
         button.frame = CGRectMake(xOffset, yOffset, tileWidth, tileHeight);
+
+        CGImageRef imageRef = CGImageCreateWithImageInRect([largeImage CGImage], button.frame);
+        UIImage *image = [UIImage imageWithCGImage:imageRef];
+        CGImageRelease(imageRef);
+
         [button setImage: image forState:UIControlStateNormal];
 
         [buttons_ addObject: button];
@@ -64,10 +69,10 @@
 
     CGFloat buttonWidth = button.frame.size.width;
     CGFloat buttonHeight = button.frame.size.height;
-    CGFloat targetXOffset = (emptyIndex % 3) * buttonWidth;
-    CGFloat targetYOffset = (emptyIndex / 3) * buttonHeight;
-    CGFloat buttonXOffset = (buttonIndex % 3) * buttonWidth;
-    CGFloat buttonYOffset = (buttonIndex / 3) * buttonHeight;
+    CGFloat targetXOffset = (emptyIndex % TILES_PER_ROW) * buttonWidth;
+    CGFloat targetYOffset = (emptyIndex / TILES_PER_ROW) * buttonHeight;
+    CGFloat buttonXOffset = (buttonIndex % TILES_PER_ROW) * buttonWidth;
+    CGFloat buttonYOffset = (buttonIndex / TILES_PER_ROW) * buttonHeight;
 
     // if it doesn't border it on one side, we can't do anything
     if (targetYOffset == buttonYOffset) {
