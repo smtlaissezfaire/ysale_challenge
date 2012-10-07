@@ -34,7 +34,7 @@
     CGFloat tileHeight = frameHeight / 3.0f;
     CGFloat yOffset = -tileHeight;
 
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < TILE_COUNT; i++) {
         if ((i % 3) == 0) {
             xOffset = 0;
             yOffset += tileHeight;
