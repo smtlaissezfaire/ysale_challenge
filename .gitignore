@@ -1,0 +1,11 @@
+.DS_Store
+
+YardsalePuzzle/*.xcuserdata
+YardsalePuzzle/xcuserdata
+YardsalePuzzle/build
+YardsalePuzzle/pkg
+YardsalePuzzle/build.output
+
+# textmate project files
+*.tmproj
+

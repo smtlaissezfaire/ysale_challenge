@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1D533116223FCE009BAD27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1D533016223FCE009BAD27 /* UIKit.framework */; };
+		CE1D533316223FCE009BAD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1D533216223FCE009BAD27 /* Foundation.framework */; };
+		CE1D533516223FCE009BAD27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1D533416223FCE009BAD27 /* CoreGraphics.framework */; };
+		CE1D533B16223FCE009BAD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1D533916223FCE009BAD27 /* InfoPlist.strings */; };
+		CE1D533D16223FCE009BAD27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D533C16223FCE009BAD27 /* main.m */; };
+		CE1D534116223FCE009BAD27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D534016223FCE009BAD27 /* AppDelegate.m */; };
+		CE1D534416223FCE009BAD27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D534316223FCE009BAD27 /* ViewController.m */; };
+		CE1D534716223FCE009BAD27 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1D534516223FCE009BAD27 /* ViewController_iPhone.xib */; };
+		CE1D534A16223FCE009BAD27 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1D534816223FCE009BAD27 /* ViewController_iPad.xib */; };
+		CE1D535A16224002009BAD27 /* yardsale-01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535116224002009BAD27 /* yardsale-01.png */; };
+		CE1D535B16224002009BAD27 /* yardsale-02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535216224002009BAD27 /* yardsale-02.png */; };
+		CE1D535C16224002009BAD27 /* yardsale-03.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535316224002009BAD27 /* yardsale-03.png */; };
+		CE1D535D16224002009BAD27 /* yardsale-04.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535416224002009BAD27 /* yardsale-04.png */; };
+		CE1D535E16224002009BAD27 /* yardsale-05.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535516224002009BAD27 /* yardsale-05.png */; };
+		CE1D535F16224002009BAD27 /* yardsale-06.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535616224002009BAD27 /* yardsale-06.png */; };
+		CE1D536016224002009BAD27 /* yardsale-07.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535716224002009BAD27 /* yardsale-07.png */; };
+		CE1D536116224002009BAD27 /* yardsale-08.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535816224002009BAD27 /* yardsale-08.png */; };
+		CE1D536216224002009BAD27 /* yardsale-09.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D535916224002009BAD27 /* yardsale-09.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE1D532C16223FCE009BAD27 /* YardsalePuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YardsalePuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1D533016223FCE009BAD27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE1D533216223FCE009BAD27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE1D533416223FCE009BAD27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE1D533816223FCE009BAD27 /* YardsalePuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YardsalePuzzle-Info.plist"; sourceTree = "<group>"; };
+		CE1D533A16223FCE009BAD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE1D533C16223FCE009BAD27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE1D533E16223FCE009BAD27 /* YardsalePuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YardsalePuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		CE1D533F16223FCE009BAD27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE1D534016223FCE009BAD27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE1D534216223FCE009BAD27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE1D534316223FCE009BAD27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE1D534616223FCE009BAD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE1D534916223FCE009BAD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		CE1D535116224002009BAD27 /* yardsale-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-01.png"; sourceTree = "<group>"; };
+		CE1D535216224002009BAD27 /* yardsale-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-02.png"; sourceTree = "<group>"; };
+		CE1D535316224002009BAD27 /* yardsale-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-03.png"; sourceTree = "<group>"; };
+		CE1D535416224002009BAD27 /* yardsale-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-04.png"; sourceTree = "<group>"; };
+		CE1D535516224002009BAD27 /* yardsale-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-05.png"; sourceTree = "<group>"; };
+		CE1D535616224002009BAD27 /* yardsale-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-06.png"; sourceTree = "<group>"; };
+		CE1D535716224002009BAD27 /* yardsale-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-07.png"; sourceTree = "<group>"; };
+		CE1D535816224002009BAD27 /* yardsale-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-08.png"; sourceTree = "<group>"; };
+		CE1D535916224002009BAD27 /* yardsale-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yardsale-09.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1D532916223FCE009BAD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D533116223FCE009BAD27 /* UIKit.framework in Frameworks */,
+				CE1D533316223FCE009BAD27 /* Foundation.framework in Frameworks */,
+				CE1D533516223FCE009BAD27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1D532116223FCE009BAD27 = {
+			isa = PBXGroup;
+			children = (
+				CE1D535016224002009BAD27 /* Assets */,
+				CE1D533616223FCE009BAD27 /* YardsalePuzzle */,
+				CE1D532F16223FCE009BAD27 /* Frameworks */,
+				CE1D532D16223FCE009BAD27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1D532D16223FCE009BAD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D532C16223FCE009BAD27 /* YardsalePuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1D532F16223FCE009BAD27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D533016223FCE009BAD27 /* UIKit.framework */,
+				CE1D533216223FCE009BAD27 /* Foundation.framework */,
+				CE1D533416223FCE009BAD27 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1D533616223FCE009BAD27 /* YardsalePuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D533F16223FCE009BAD27 /* AppDelegate.h */,
+				CE1D534016223FCE009BAD27 /* AppDelegate.m */,
+				CE1D534216223FCE009BAD27 /* ViewController.h */,
+				CE1D534316223FCE009BAD27 /* ViewController.m */,
+				CE1D534516223FCE009BAD27 /* ViewController_iPhone.xib */,
+				CE1D534816223FCE009BAD27 /* ViewController_iPad.xib */,
+				CE1D533716223FCE009BAD27 /* Supporting Files */,
+			);
+			path = YardsalePuzzle;
+			sourceTree = "<group>";
+		};
+		CE1D533716223FCE009BAD27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D533816223FCE009BAD27 /* YardsalePuzzle-Info.plist */,
+				CE1D533916223FCE009BAD27 /* InfoPlist.strings */,
+				CE1D533C16223FCE009BAD27 /* main.m */,
+				CE1D533E16223FCE009BAD27 /* YardsalePuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1D535016224002009BAD27 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D535116224002009BAD27 /* yardsale-01.png */,
+				CE1D535216224002009BAD27 /* yardsale-02.png */,
+				CE1D535316224002009BAD27 /* yardsale-03.png */,
+				CE1D535416224002009BAD27 /* yardsale-04.png */,
+				CE1D535516224002009BAD27 /* yardsale-05.png */,
+				CE1D535616224002009BAD27 /* yardsale-06.png */,
+				CE1D535716224002009BAD27 /* yardsale-07.png */,
+				CE1D535816224002009BAD27 /* yardsale-08.png */,
+				CE1D535916224002009BAD27 /* yardsale-09.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1D532B16223FCE009BAD27 /* YardsalePuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1D534D16223FCE009BAD27 /* Build configuration list for PBXNativeTarget "YardsalePuzzle" */;
+			buildPhases = (
+				CE1D532816223FCE009BAD27 /* Sources */,
+				CE1D532916223FCE009BAD27 /* Frameworks */,
+				CE1D532A16223FCE009BAD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YardsalePuzzle;
+			productName = YardsalePuzzle;
+			productReference = CE1D532C16223FCE009BAD27 /* YardsalePuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1D532316223FCE009BAD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE1D532616223FCE009BAD27 /* Build configuration list for PBXProject "YardsalePuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1D532116223FCE009BAD27;
+			productRefGroup = CE1D532D16223FCE009BAD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1D532B16223FCE009BAD27 /* YardsalePuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1D532A16223FCE009BAD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D533B16223FCE009BAD27 /* InfoPlist.strings in Resources */,
+				CE1D534716223FCE009BAD27 /* ViewController_iPhone.xib in Resources */,
+				CE1D534A16223FCE009BAD27 /* ViewController_iPad.xib in Resources */,
+				CE1D535A16224002009BAD27 /* yardsale-01.png in Resources */,
+				CE1D535B16224002009BAD27 /* yardsale-02.png in Resources */,
+				CE1D535C16224002009BAD27 /* yardsale-03.png in Resources */,
+				CE1D535D16224002009BAD27 /* yardsale-04.png in Resources */,
+				CE1D535E16224002009BAD27 /* yardsale-05.png in Resources */,
+				CE1D535F16224002009BAD27 /* yardsale-06.png in Resources */,
+				CE1D536016224002009BAD27 /* yardsale-07.png in Resources */,
+				CE1D536116224002009BAD27 /* yardsale-08.png in Resources */,
+				CE1D536216224002009BAD27 /* yardsale-09.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1D532816223FCE009BAD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D533D16223FCE009BAD27 /* main.m in Sources */,
+				CE1D534116223FCE009BAD27 /* AppDelegate.m in Sources */,
+				CE1D534416223FCE009BAD27 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE1D533916223FCE009BAD27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1D533A16223FCE009BAD27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE1D534516223FCE009BAD27 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1D534616223FCE009BAD27 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CE1D534816223FCE009BAD27 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1D534916223FCE009BAD27 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1D534B16223FCE009BAD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE1D534C16223FCE009BAD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1D534E16223FCE009BAD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YardsalePuzzle/YardsalePuzzle-Prefix.pch";
+				INFOPLIST_FILE = "YardsalePuzzle/YardsalePuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE1D534F16223FCE009BAD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YardsalePuzzle/YardsalePuzzle-Prefix.pch";
+				INFOPLIST_FILE = "YardsalePuzzle/YardsalePuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1D532616223FCE009BAD27 /* Build configuration list for PBXProject "YardsalePuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1D534B16223FCE009BAD27 /* Debug */,
+				CE1D534C16223FCE009BAD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1D534D16223FCE009BAD27 /* Build configuration list for PBXNativeTarget "YardsalePuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1D534E16223FCE009BAD27 /* Debug */,
+				CE1D534F16223FCE009BAD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1D532316223FCE009BAD27 /* Project object */;
+}
